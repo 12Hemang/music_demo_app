@@ -1,7 +1,14 @@
 const String imgLogo = "assets/images/logo.png";
 const String imgHome = "assets/images/home.png";
 const String imgLogoVoice = "assets/images/logo_voice.png";
-const String imgMicAdd = "assets/images/notification.png";
-const String imgNotification = "assets/images/mic_add.png";
+const String imgNotification = "assets/images/notification.png";
+const String imgMicAdd = "assets/images/mic_add.png";
 const String imgSearch = "assets/images/search.png";
 const String imgMessage = "assets/images/message.png";
+const String imgPlayButtonGrey = "assets/images/play_button_grey.png";
+const String imgGroupPeople = "assets/images/group_people.png";
+const String imgUserPlaceholder = "assets/images/user_placeholder.png";
+const String imgDummyUser = "assets/images/dummy_user.png";
+const String imgLike = "assets/images/like.png";
+const String imgPlaylist = "assets/images/music_playlist.png";
+const String imgPlayButton = "assets/images/play_button.png";

@@ -1,4 +1,4 @@
-import 'package:arre_music/page/basic_sliver_appbar.dart';
+import 'package:arre_music/dashboard/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -15,14 +15,11 @@ Future main() async {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-
   @override
   Widget build(BuildContext context) => MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primaryColor: Colors.black,
-        ),
-        home: const DashboardList(),
+            primaryColor: Colors.black, colorScheme: const ColorScheme.dark()),
+        home: const Dashboard(),
       );
 }
-
