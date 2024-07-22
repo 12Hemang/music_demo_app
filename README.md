@@ -1,12 +1,10 @@
 # arre_music
 
-A new Flutter project.
+Implementation of simple music app interface using native Flutter widgets.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+https://github.com/user-attachments/assets/958dc871-81fe-410d-9a88-9fe99cf034d9
 
-[![Demo](public/demo.gif)]
 
 A few resources to get you started if this is your first Flutter project:
 
