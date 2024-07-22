@@ -32,8 +32,6 @@ class _DashboardState extends State<Dashboard> {
             flexibleSpace: LayoutBuilder(
                 builder: (BuildContext context, BoxConstraints constraints) {
               var expandRatio = constraints.biggest.height / maxHeight;
-              double iconSize = 15 + (3 * expandRatio);
-
               return Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.vertical(
@@ -80,14 +78,14 @@ class _DashboardState extends State<Dashboard> {
                         ),
                       ),
                       Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           IconButton(
                             icon: Image.asset(
                               imgNotification,
-                              fit: BoxFit.cover,
-                              height: iconSize,
-                              width: iconSize,
+                              fit: BoxFit.fill,
+                              height: 24 + (4 * expandRatio),
+                              width: 24 + (4 * expandRatio),
                             ),
                             onPressed: () {},
                           ),
@@ -95,8 +93,8 @@ class _DashboardState extends State<Dashboard> {
                             icon: Image.asset(
                               imgMessage,
                               fit: BoxFit.scaleDown,
-                              height: iconSize,
-                              width: iconSize,
+                              height: 18 + (4 * expandRatio),
+                              width: 18 + (4 * expandRatio),
                             ),
                             onPressed: () {},
                           ),
